@@ -128,6 +128,10 @@ export default {
         cursor: pointer;
         line-height: 70px;
     }
+    .collapse-btn:hover {
+        background: #00d1b2;
+        // background: rgb(40, 52, 70);
+    }
     .logo {
         float: left;
         width: 250px;
