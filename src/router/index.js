@@ -23,6 +23,11 @@ const routes = [
                 component: () => import('../components/page/404.vue'),
                 meta: { title: '404' },
             },
+            {
+                path: '/table',
+                component: () => import('../components/page/BaseTable.vue'),
+                meta: { title: '基础表格' },
+            },
         ],
     },
     {
