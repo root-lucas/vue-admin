@@ -61,6 +61,12 @@ const routes = [
                 component: () => import(/* webpackChunkName: "icon" */ '../components/page/Icon.vue'),
                 meta: { title: '自定义图标' },
             },
+            {
+                // 拖拽列表组件
+                path: '/drag',
+                component: () => import(/* webpackChunkName: "drag" */ '../components/page/DragList.vue'),
+                meta: { title: '拖拽列表' },
+            },
         ],
     },
     {
