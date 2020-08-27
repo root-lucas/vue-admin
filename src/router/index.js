@@ -33,6 +33,11 @@ const routes = [
                 component: () => import(/* webpackChunkName: "tabs" */ '../components/page/Tabs.vue'),
                 meta: { title: 'tab选项卡' }
             },
+            {
+                path: '/form',
+                component: () => import(/* webpackChunkName: "form" */ '../components/page/BaseForm.vue'),
+                meta: { title: '基本表单' }
+            },
         ],
     },
     {
