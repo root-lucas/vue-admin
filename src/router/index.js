@@ -56,6 +56,11 @@ const routes = [
                 component: () => import(/* webpackChunkName: "upload" */ '../components/page/Upload.vue'),
                 meta: { title: '文件上传' },
             },
+            {
+                path: '/icon',
+                component: () => import(/* webpackChunkName: "icon" */ '../components/page/Icon.vue'),
+                meta: { title: '自定义图标' },
+            },
         ],
     },
     {
