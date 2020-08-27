@@ -67,6 +67,12 @@ const routes = [
                 component: () => import(/* webpackChunkName: "drag" */ '../components/page/DragList.vue'),
                 meta: { title: '拖拽列表' },
             },
+            {
+                // 拖拽Dialog组件
+                path: '/dialog',
+                component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/DragDialog.vue'),
+                meta: { title: '拖拽弹框' },
+            },
         ],
     },
     {
