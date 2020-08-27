@@ -50,6 +50,12 @@ const routes = [
                 component: () => import(/* webpackChunkName: "markdown" */ '../components/page/Markdown.vue'),
                 meta: { title: 'markdown编辑器' },
             },
+            {
+                // 图片上传组件
+                path: '/upload',
+                component: () => import(/* webpackChunkName: "upload" */ '../components/page/Upload.vue'),
+                meta: { title: '文件上传' },
+            },
         ],
     },
     {
