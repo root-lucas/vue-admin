@@ -31,12 +31,18 @@ const routes = [
             {
                 path: '/tabs',
                 component: () => import(/* webpackChunkName: "tabs" */ '../components/page/Tabs.vue'),
-                meta: { title: 'tab选项卡' }
+                meta: { title: 'tab选项卡' },
             },
             {
                 path: '/form',
                 component: () => import(/* webpackChunkName: "form" */ '../components/page/BaseForm.vue'),
-                meta: { title: '基本表单' }
+                meta: { title: '基本表单' },
+            },
+            {
+                // 富文本编辑器组件
+                path: '/editor',
+                component: () => import(/* webpackChunkName: "editor" */ '../components/page/VueEditor.vue'),
+                meta: { title: '富文本编辑器' },
             },
         ],
     },
