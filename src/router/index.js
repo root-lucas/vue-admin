@@ -79,6 +79,17 @@ const routes = [
                 component: () => import(/* webpackChunkName: "i18n" */ '../components/page/I18n.vue'),
                 meta: { title: '国际化' },
             },
+            {
+                // 权限页面
+                path: '/permission',
+                component: () => import(/* webpackChunkName: "permission" */ '../components/page/Permission.vue'),
+                meta: { title: '权限测试', permission: true },
+            },
+            {
+                path: '/403',
+                component: () => import(/* webpackChunkName: "403" */ '../components/page/403.vue'),
+                meta: { title: '403' },
+            },
         ],
     },
     {
