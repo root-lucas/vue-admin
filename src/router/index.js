@@ -73,6 +73,12 @@ const routes = [
                 component: () => import(/* webpackChunkName: "dragdialog" */ '../components/page/DragDialog.vue'),
                 meta: { title: '拖拽弹框' },
             },
+            {
+                // 国际化组件
+                path: '/i18n',
+                component: () => import(/* webpackChunkName: "i18n" */ '../components/page/I18n.vue'),
+                meta: { title: '国际化' },
+            },
         ],
     },
     {
