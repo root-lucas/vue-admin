@@ -50,21 +50,6 @@ export default {
 }
 </script>
 <style lang="scss">
-.crumbs {
-    margin: 10px 0;
-}
-.container {
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-
-.plugins-tips {
-    padding: 20px 10px;
-    margin-bottom: 20px;
-}
-
 .quill-editor .ql-container {
     height: 400px;
 }

@@ -107,26 +107,8 @@ export default {
 </script>
 
 <style scoped>
-.crumbs {
-    margin: 10px 0;
-}
-.container {
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
-.content-title {
-    font-weight: 400;
-    line-height: 50px;
-    margin: 10px 0;
-    font-size: 22px;
-    color: #1f2f3d;
-}
-.plugins-tips {
-    padding: 20px 10px;
-    margin-bottom: 20px;
-}
+
+
 .pre-img {
     width: 100px;
     height: 100px;

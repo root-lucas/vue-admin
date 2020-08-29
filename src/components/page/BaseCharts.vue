@@ -124,15 +124,6 @@ export default {
 </script>
 
 <style scoped>
-.crumbs {
-    margin: 10px 0;
-}
-.container {
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
 .schart-box {
     display: inline-block;
     margin: 20px;
@@ -140,13 +131,5 @@ export default {
 .schart {
     width: 600px;
     height: 400px;
-}
-.content-title {
-    clear: both;
-    font-weight: 400;
-    line-height: 50px;
-    margin: 10px 0;
-    font-size: 22px;
-    color: #1f2f3d;
 }
 </style>

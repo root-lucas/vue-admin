@@ -33,15 +33,6 @@ export default {
 </script>
 
 <style scoped>
-.crumbs {
-    margin: 10px 0;
-}
-.container {
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-}
 .list {
     padding: 30px 0;
 }

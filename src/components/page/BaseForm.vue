@@ -146,19 +146,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.crumbs {
-    margin: 10px 0;
+.form-box {
+    width: 600px;
 }
-.container {
-    padding: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    .form-box {
-        width: 600px;
-    }
-    .form-box .line {
-        text-align: center;
-    }
+.form-box .line {
+    text-align: center;
 }
 </style>
