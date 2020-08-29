@@ -149,11 +149,6 @@ export default {
                         },
                     ],
                 },
-                {
-                    icon: 'el-icon-money',
-                    index: '/donate',
-                    title: '支持作者',
-                },
             ],
         }
     },

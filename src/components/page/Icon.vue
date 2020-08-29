@@ -2,23 +2,23 @@
     <div>
         <div class="crumbs">
             <el-breadcrumb separator="/">
-                <el-breadcrumb-item><i class="el-icon-lx-emoji"></i> 自定义图标</el-breadcrumb-item>
+                <el-breadcrumb-item><i class="el-icon-coordinate"></i> 自定义图标</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
         <div class="container">
             <h2>使用方法</h2>
             <p style="line-height: 50px;">直接通过设置类名为 el-icon-iconName 来使用即可。例如：（共{{ iconList.length }}个图标）</p>
             <p class="example-p">
-                <i class="el-icon-lx-redpacket_fill" style="font-size: 30px;color: #ff5900"></i>
+                <i class="el-icon-platform-eleme" style="font-size: 30px;color: #ff5900"></i>
                 <span>&lt;i class=&quot;el-icon-platform-eleme&quot;&gt;&lt;/i&gt;</span>
             </p>
             <p class="example-p">
-                <i class="el-icon-lx-weibo" style="font-size: 30px;color:#fd5656"></i>
+                <i class="el-icon-user-solid" style="font-size: 30px;color:#fd5656"></i>
                 <span>&lt;i class=&quot;el-icon-user-solid&quot;&gt;&lt;/i&gt;</span>
             </p>
             <p class="example-p">
-                <i class="el-icon-lx-emojifill" style="font-size: 30px;color: #ffc300"></i>
-                <span>&lt;i class=&quot;el-icon-delete-solid&quot;&gt;&lt;/i&gt;</span>
+                <i class="el-icon-picture" style="font-size: 30px;color: #ffc300"></i>
+                <span>&lt;i class=&quot;el-icon-picture&quot;&gt;&lt;/i&gt;</span>
             </p>
             <br />
             <h2>图标</h2>
