@@ -62,6 +62,12 @@ const routes = [
                 meta: { title: '自定义图标' },
             },
             {
+                // vue-schart组件
+                path: '/charts',
+                component: () => import(/* webpackChunkName: "chart" */ '../components/page/BaseCharts.vue'),
+                meta: { title: 'schart图表' },
+            },
+            {
                 // 拖拽列表组件
                 path: '/drag',
                 component: () => import(/* webpackChunkName: "drag" */ '../components/page/DragList.vue'),
