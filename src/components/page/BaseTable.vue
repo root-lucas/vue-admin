@@ -18,7 +18,7 @@
                 <el-button type="primary" icon="el-icon-search" @click="handleSearch">搜索</el-button>
             </div>
             <el-table
-                :data="tableData"
+                :data="tableData.slice((query.pageIndex - 1) * query.pageSize, query.pageIndex * query.pageSize)"
                 border
                 class="table"
                 ref="multipleTable"
@@ -93,9 +93,10 @@ export default {
                 address: '',
                 name: '',
                 pageIndex: 1,
-                pageSize: 10,
+                pageSize: 4,
             },
             tableData: [],
+            currentPage: 1,
             multipleSelection: [],
             delList: [],
             editVisible: false,
@@ -118,8 +119,17 @@ export default {
         },
         // 触发搜索按钮
         handleSearch() {
-            this.$set(this.query, 'pageIndex', 1)
-            this.getData()
+            if (!this.query.name) {
+                this.getData()
+                return
+            }
+            let filterData = []
+            this.tableData.filter((item) => {
+                return item.name.indexOf(this.query.name) ? '' : filterData.push(item)
+            })
+            this.tableData = filterData
+            this.pageTotal = this.tableData.length
+            this.$set(this.tableData, 'pageIndex', 1)
         },
         // 删除操作
         handleDelete(index, row) {
@@ -159,8 +169,8 @@ export default {
         },
         // 分页导航
         handlePageChange(val) {
+            // 加载第几页数据
             this.$set(this.query, 'pageIndex', val)
-            this.getData()
         },
     },
 }
