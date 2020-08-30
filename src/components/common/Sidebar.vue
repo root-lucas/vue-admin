@@ -122,6 +122,11 @@ export default {
                             index: 'baidu',
                             title: '百度地图',
                         },
+                        {
+                            icon: 'el-icon-pie-chart',
+                            index: 'gaode',
+                            title: '高德地图',
+                        },
                     ],
                 },
                 {

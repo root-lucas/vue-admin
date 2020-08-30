@@ -108,6 +108,12 @@ const routes = [
                 component: () => import('../components/page/map/baiduMap.vue'),
                 meta: { title: '百度地图' },
             },
+            {
+                // 百度地图
+                path: '/gaode',
+                component: () => import('../components/page/map/gaodeMap.vue'),
+                meta: { title: '高德地图' },
+            },
         ],
     },
     {
