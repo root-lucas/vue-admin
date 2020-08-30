@@ -92,6 +92,12 @@ const routes = [
                 meta: { title: '权限测试', permission: true },
             },
             {
+                // 权限页面
+                path: '/echarts',
+                component: () => import(/* webpackChunkName: "permission" */ '../components/page/echarts/echarts.vue'),
+                meta: { title: 'echarts' },
+            },
+            {
                 path: '/403',
                 component: () => import(/* webpackChunkName: "403" */ '../components/page/403.vue'),
                 meta: { title: '403' },

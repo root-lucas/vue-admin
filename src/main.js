@@ -6,6 +6,9 @@ import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 import VueI18n from 'vue-i18n'
 import { messages } from './components/common/i18n'
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 Vue.use(ElementUI, {
