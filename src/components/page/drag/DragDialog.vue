@@ -22,7 +22,7 @@
 </template>
 
 <script>
-import '../common/directives'
+import '../../common/directives'
 export default {
     data() {
         return {

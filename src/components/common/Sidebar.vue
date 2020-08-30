@@ -57,11 +57,6 @@ export default {
                     title: '基础表格',
                 },
                 {
-                    icon: 'el-icon-s-order',
-                    index: 'tabs',
-                    title: 'tab选项卡',
-                },
-                {
                     icon: 'el-icon-document',
                     index: '3',
                     title: '表单相关',
@@ -69,6 +64,11 @@ export default {
                         {
                             index: 'form',
                             title: '基本表单',
+                        },
+                        {
+                            icon: 'el-icon-s-order',
+                            index: 'tabs',
+                            title: 'tab选项卡',
                         },
                         {
                             index: '3-2',
@@ -97,14 +97,22 @@ export default {
                 },
                 {
                     icon: 'el-icon-pie-chart',
-                    index: 'charts',
-                    title: 'schart图表',
+                    index: '16',
+                    title: '图表相关',
+                    subs: [
+                        {
+                            icon: 'el-icon-pie-chart',
+                            index: 'charts',
+                            title: 'schart图表',
+                        },
+                        {
+                            icon: 'el-icon-pie-chart',
+                            index: 'echarts',
+                            title: 'echarts图表',
+                        },
+                    ],
                 },
-                {
-                    icon: 'el-icon-pie-chart',
-                    index: 'echarts',
-                    title: 'echarts图表',
-                },
+
                 {
                     icon: 'el-icon-rank',
                     index: '6',
