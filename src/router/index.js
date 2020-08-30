@@ -102,6 +102,12 @@ const routes = [
                 component: () => import('../components/page/permission/403.vue'),
                 meta: { title: '403' },
             },
+            {
+                // 百度地图
+                path: '/baidu',
+                component: () => import('../components/page/map/baiduMap.vue'),
+                meta: { title: '百度地图' },
+            },
         ],
     },
     {

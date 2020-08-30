@@ -112,7 +112,18 @@ export default {
                         },
                     ],
                 },
-
+                {
+                    icon: 'el-icon-pie-chart',
+                    index: '26',
+                    title: '地图相关',
+                    subs: [
+                        {
+                            icon: 'el-icon-pie-chart',
+                            index: 'baidu',
+                            title: '百度地图',
+                        },
+                    ],
+                },
                 {
                     icon: 'el-icon-rank',
                     index: '6',
