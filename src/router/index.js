@@ -63,10 +63,16 @@ const routes = [
                 meta: { title: 'schart图表' },
             },
             {
-                // 绘图
+                // echarts组件
                 path: '/echarts',
                 component: () => import('../components/page/charts/echarts.vue'),
-                meta: { title: 'echarts' },
+                meta: { title: 'echarts图表' },
+            },
+            {
+                // highcharts组件
+                path: '/highcharts',
+                component: () => import('../components/page/charts/highcharts.vue'),
+                meta: { title: 'highcharts图表' },
             },
             {
                 // 拖拽列表组件

@@ -110,6 +110,11 @@ export default {
                             index: 'echarts',
                             title: 'echarts图表',
                         },
+                        {
+                            icon: 'el-icon-pie-chart',
+                            index: 'highcharts',
+                            title: 'highcharts图表',
+                        },
                     ],
                 },
                 {

@@ -13,6 +13,7 @@
     "core-js": "^3.6.5",
     "echarts": "^4.9.0",
     "element-ui": "^2.13.2",
+    "highcharts": "^8.2.0",
     "mavon-editor": "^2.9.0",
     "vue": "^2.6.11",
     "vue-cropperjs": "^4.1.0",
