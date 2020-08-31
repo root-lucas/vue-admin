@@ -102,8 +102,8 @@ export default {
                     subs: [
                         {
                             icon: 'el-icon-pie-chart',
-                            index: 'charts',
-                            title: 'schart图表',
+                            index: 'highcharts',
+                            title: 'highcharts图表',
                         },
                         {
                             icon: 'el-icon-pie-chart',
@@ -112,8 +112,8 @@ export default {
                         },
                         {
                             icon: 'el-icon-pie-chart',
-                            index: 'highcharts',
-                            title: 'highcharts图表',
+                            index: 'charts',
+                            title: 'schart图表',
                         },
                     ],
                 },
