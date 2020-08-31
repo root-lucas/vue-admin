@@ -2,7 +2,7 @@
     <section class="main">
         <div class="crumbs">
             <el-breadcrumb separator="/">
-                <el-breadcrumb-item><i class="el-icon-baseball"></i> {{ $t('i18n.breadcrumb') }}</el-breadcrumb-item>
+                <el-breadcrumb-item><i class="el-icon-help"></i> {{ $t('i18n.breadcrumb') }}</el-breadcrumb-item>
             </el-breadcrumb>
         </div>
         <div class="container">

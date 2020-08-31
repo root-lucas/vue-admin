@@ -101,34 +101,34 @@ export default {
                     title: '图表相关',
                     subs: [
                         {
-                            icon: 'el-icon-pie-chart',
+                            // icon: 'el-icon-pie-chart',
                             index: 'highcharts',
                             title: 'highcharts图表',
                         },
                         {
-                            icon: 'el-icon-pie-chart',
+                            // icon: 'el-icon-pie-chart',
                             index: 'echarts',
                             title: 'echarts图表',
                         },
                         {
-                            icon: 'el-icon-pie-chart',
+                            // icon: 'el-icon-pie-chart',
                             index: 'charts',
                             title: 'schart图表',
                         },
                     ],
                 },
                 {
-                    icon: 'el-icon-pie-chart',
+                    icon: 'el-icon-location',
                     index: '26',
                     title: '地图相关',
                     subs: [
                         {
-                            icon: 'el-icon-pie-chart',
+                            // icon: 'el-icon-pie-chart',
                             index: 'baidu',
                             title: '百度地图',
                         },
                         {
-                            icon: 'el-icon-pie-chart',
+                            // icon: 'el-icon-pie-chart',
                             index: 'gaode',
                             title: '高德地图',
                         },
@@ -150,7 +150,7 @@ export default {
                     ],
                 },
                 {
-                    icon: 'el-icon-aim',
+                    icon: 'el-icon-help',
                     index: 'i18n',
                     title: '国际化功能',
                 },
