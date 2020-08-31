@@ -120,6 +120,12 @@ const routes = [
                 component: () => import('../components/page/map/gaodeMap.vue'),
                 meta: { title: '高德地图' },
             },
+            {
+                // 视频播放
+                path: '/video',
+                component: () => import('../components/page/player/video.vue'),
+                meta: { title: '视频播放' },
+            },
         ],
     },
     {

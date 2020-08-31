@@ -155,6 +155,11 @@ export default {
                     title: '国际化功能',
                 },
                 {
+                    icon: 'el-icon-video-camera',
+                    index: 'video',
+                    title: '视频播放',
+                },
+                {
                     icon: 'el-icon-warning',
                     index: '7',
                     title: '错误处理',
