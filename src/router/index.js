@@ -123,8 +123,14 @@ const routes = [
             {
                 // 视频播放
                 path: '/video',
-                component: () => import('../components/page/player/video.vue'),
+                component: () => import('../components/page/media/video.vue'),
                 meta: { title: '视频播放' },
+            },
+            {
+                // 视频播放
+                path: '/music',
+                component: () => import('../components/page/media/music.vue'),
+                meta: { title: '音乐播放' },
             },
         ],
     },

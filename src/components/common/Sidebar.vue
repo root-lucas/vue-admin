@@ -159,6 +159,11 @@ export default {
                     index: 'video',
                     title: '视频播放',
                 },
+                                {
+                    icon: 'el-icon-video-pause',
+                    index: 'music',
+                    title: '音乐播放',
+                },
                 {
                     icon: 'el-icon-warning',
                     index: '7',

@@ -3126,6 +3126,11 @@ deepmerge@^1.2.0, deepmerge@^1.5.0, deepmerge@^1.5.2:
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
 
+deepmerge@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
+
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/default-gateway/download/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -9082,6 +9087,14 @@ xgplayer-hls@^2.3.29:
   dependencies:
     xgplayer-hls-live "2.3.28"
     xgplayer-hls-vod "2.3.28"
+
+xgplayer-music@^2.1.7:
+  version "2.1.7"
+  resolved "https://registry.npm.taobao.org/xgplayer-music/download/xgplayer-music-2.1.7.tgz#ecc0dd86d49ee64fc153e744950c7076305313eb"
+  integrity sha1-7MDdhtSe5k/BU+dElQxwdjBTE+s=
+  dependencies:
+    deepmerge "^2.0.1"
+    event-emitter "^0.3.5"
 
 xgplayer@^2.10.1:
   version "2.10.1"

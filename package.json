@@ -24,7 +24,8 @@
     "vuedraggable": "^2.24.1",
     "vuex": "^3.4.0",
     "xgplayer": "^2.10.1",
-    "xgplayer-hls": "^2.3.29"
+    "xgplayer-hls": "^2.3.29",
+    "xgplayer-music": "^2.1.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
